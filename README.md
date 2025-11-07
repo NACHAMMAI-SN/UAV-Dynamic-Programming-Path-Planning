@@ -1,10 +1,9 @@
 
-````markdown
-# UAV Dynamic Programming Path Planning
+**UAV Dynamic Programming Path Planning**
 
 This project applies **Dynamic Programming (DP)** methods to artificially created **Digital Elevation Models (DEMs)** to build a framework for autonomous **Unmanned Aerial Vehicle (UAV)** path planning. The goal is to identify the best, collision-free routes in 3D landscapes.
 
-## Features
+**Features**
 
 - **Terrain Generation**: Uses the **Diamond-Square technique** to generate realistic elevation data with adjustable roughness and predefined obstacles (mountains, hills, etc.).
 - **Path Planning**: Supports both **4-connected** and **8-connected** movement patterns using **Forward Dynamic Programming**. The cost function considers:
@@ -31,7 +30,7 @@ This project applies **Dynamic Programming (DP)** methods to artificially create
 
 This provides a practical and efficient solution for UAV navigation in 3D environments.
 
-## Getting Started
+**Getting Started**
 
 1. Clone the repository:
 
@@ -48,13 +47,10 @@ pip install -r requirements.txt
 
 3. Open the Jupyter/Colab notebook and run the cells.
 
----
+**Authors & Affiliations**
 
-## Authors & Affiliations
+* **A. Mokrane**
+* **A. Choukchou Braham**
+* **B. Cherki**
+  Laboratoire d’Automatique de Tlemcen (LAT), University of Tlemcen, Tlemcen, Algeria
 
-**A. Mokrane, A. Choukchou Braham, B. Cherki**
-Laboratoire d’Automatique de Tlemcen (LAT), University of Tlemcen, Tlemcen, Algeria
-
----
-
- 
